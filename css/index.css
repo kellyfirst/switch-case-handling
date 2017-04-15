@@ -1,0 +1,98 @@
+input{
+    height: 30px;
+    border-radius:1px 1px 1px 1px ;
+    box-shadow:2px 2px #888;
+    animation-name:kelly;
+    animation-duration:2s;
+    animation-timing-function:linear;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+    /*firefox*/
+    -moz-animation-name:kelly;
+    -moz-animation-duration:2s;
+    -moz-animation-timing-function:linear;
+    -moz-animation-delay:2s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:alternate;
+    -moz-animation-play-state:running;
+    /*safari and chrome*/
+    -webkit-animation-name:kelly;
+    -webkit-animation-duration:2s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+    /*opera*/
+    -o-animation-name:kelly;
+    -o-animation-duration:2s;
+    -o-animation-timing-function:linear;
+    -o-animation-delay:2s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:alternate;
+    -o-animation-play-state:running;
+
+    transition:width 2s;
+    -moz-transition:width 2s;   /*firefox4*/
+    -webkit-transition:width 2s;   /*safari and chrome*/
+    -o-transition:width 2s;   /*opera*/
+
+}
+input:hover{
+    width: 100px;
+    background-color: #5566dd;
+}
+@keyframes kelly{
+    from{
+        background-color: #ff0000;}
+        to {
+            background-color: #dfc;}
+}
+/*firefox*/
+@-moz-keyframes kelly{
+    from{
+        background-color: #ff0000;}
+        to {
+            background-color: #dfc;}
+}
+/*safari and chrome*/
+@-webkit-keyframes kelly{
+    from{
+        background-color: #ff0000;}
+        to {
+            background-color: #dfc;}
+}
+/*opera*/
+@-o-keyframes kelly{
+    from{
+        background-color: #ff0000;}
+        to {
+            background-color: #dfc;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
